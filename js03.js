@@ -15,9 +15,9 @@ console.log(array3[4]);//10
 
 
 const subway = ['1호선','2호선','3호선','4호선','5호선'];
-subway.push('6호선');
-subway.unshift('0호선');
-subway.splice(2,0,'7호선','8호선');
+subway.push('6호선'); //pop()
+subway.unshift('0호선');//shift()
+subway.splice(2,0,'7호선','8호선');//splice(2,1)
 //splice(시작인덱스,삭제할 갯수,추가될 값)
 let tatal=""
 for(let i = 0 ; i<subway.length ; i++) {
