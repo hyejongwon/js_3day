@@ -20,3 +20,14 @@ var userList = [
       email: "ji@gmail.com",
     },
   ];
+
+  var userList2 = userList.map((user)=>{
+    return {
+        fullName : user.lastName + user.firstName ,
+        firstName : user.firstName,
+        lastName : user.lastName,
+        email: user.email,
+    }
+  })
+
+  console.log(userList2)
